@@ -87,7 +87,7 @@ git branch feature1
 ```
 git checkout feature1
 ```
-![image](https://user-images.githubusercontent.com/60914189/125397003-4d13e780-e3e8-11eb-9e17-f9b086ff23a1.png)
+
 git branchと入力した際に緑色の文字になっているのが現在指定しているブランチ
 
 ### ⑹Gitの基本設定をする
