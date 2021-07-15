@@ -75,10 +75,10 @@ Visualstudiocodeを起動し、OpenFolderを押下
 ## ⑸ブランチの作成と移動
 右下の現在のブランチを確認する。defaultのブランチのみ（mainまたはmaster)だったら新規でブランチを作成する。
 
-![スクリーンショット 2021-07-15 125515](https://user-images.githubusercontent.com/66664167/125726811-75e7bf1e-77c6-4f6d-878d-562011353724.png)
+![スクリーンショット 2021-07-15 125515](https://user-images.githubusercontent.com/66664167/125727060-de0d0234-b4fb-467a-baab-4d0482c65fd0.png)
 
-![スクリーンショット 2021-07-15 125556](https://user-images.githubusercontent.com/66664167/125726820-6b9eec66-e985-4c64-96f1-adfa33aa5987.png)
-
+作成後右下のブランチが変わっているか、確認
+![スクリーンショット 2021-07-15 125556](https://user-images.githubusercontent.com/66664167/125727077-1fb9c9be-eb5c-4329-8a9b-2bad19dc262f.png)
 
 ### ⑹Gitの基本設定をする
 TerminalタブからNewterminalを押下し、VScodeのターミナルに下記コマンドを入力する。
