@@ -103,12 +103,12 @@ git config --list
 
 ## ⑺目標物の確認
 今回はカンタンにhtmlファイルの文言を書き換えてみましょう。
-左が修正前の表示で、今回修正すると右のような画像になります。
+左が修正前の表示で、今回修正すると右のような表示になります。
 ![スクリーンショット 2021-07-15 160228](https://user-images.githubusercontent.com/66664167/125744081-c0c6fe46-006d-4b8d-ba4c-20cb54935579.png)
 
 
 
-## ⑺文言を書き換える
+## ⑻文言を書き換える
 index.htmlを開き14行目の「【Git入門】　Gitの使い方を理解しよう」を
 <br>下記の文言に書き変える
 ```
@@ -117,12 +117,12 @@ index.htmlを開き14行目の「【Git入門】　Gitの使い方を理解し�
 ![スクリーンショット 2021-07-15 100227](https://user-images.githubusercontent.com/66664167/125711719-beb57f19-9efa-4f3b-b41e-9028e3252856.png)
 
 
-## ⑻変更を保存する
+## ⑼変更を保存する
 書き変えたらCtrl+Sで保存する。未保存の場合は変更したファイル名に”●”がつく
 ![スクリーンショット 2021-07-13 142148](https://user-images.githubusercontent.com/60914189/125395105-b0e8e100-e3e5-11eb-996b-e0433bea0542.png)
 
 
-## ⑼ステージングを行う
+## ⑽ステージングを行う
 ### 1.VSCodeでステージングを行うので左側のソース管理アイコンをクリックしてGitメニューを開く
 ![スクリーンショット 2021-07-13 142237](https://user-images.githubusercontent.com/60914189/125395171-cb22bf00-e3e5-11eb-8b67-ce3abfeb558d.png)
 
@@ -134,7 +134,7 @@ index.htmlを開き14行目の「【Git入門】　Gitの使い方を理解し�
 
 
 
-## ⑽コミットを行う
+## ⑾コミットを行う
 Messageに下記コメントを記入し、メニュー上部にある“✓”アイコンを押す。
 <br>“✓”はコミットアイコン
 ```
@@ -142,12 +142,12 @@ Messageに下記コメントを記入し、メニュー上部にある“✓”�
 ```
 ![スクリーンショット 2021-07-15 105922](https://user-images.githubusercontent.com/66664167/125716402-2958852c-74a2-418f-a8f3-24bc5ea6e08b.png)
 
-## ⑾feature1ブランチにプッシュ
+## ⑿feature1ブランチにプッシュ
 ソース管理をクリックし、三点リーダーのプッシュでプッシュする
 ![スクリーンショット 2021-07-15 154842](https://user-images.githubusercontent.com/66664167/125742650-126c4ffe-25ad-48fe-b967-a21e9630a7f4.png)
 
 
-## ⑿変更内容がGitHubに反映されたかの確認をする
+## ⒀変更内容がGitHubに反映されたかの確認をする
 index.htmlの中身と最終更新日時を確認する。反映されていない場合はF5キーで更新し再度確認する。
 
 ![1dsdsする](https://user-images.githubusercontent.com/66664167/125724030-8a35bf9c-0bd8-4436-b1f5-3b7147a976ae.png)
@@ -156,17 +156,17 @@ index.htmlの中身と最終更新日時を確認する。反映されていな�
 
 画面上部に”feature1 had recent pushes 1 minute ago”のようなメッセージが表示されるのでCompare&pull requestを押下
 
-## ⒀プルリクエストを作成する
+## ⒁プルリクエストを作成する
 ![スクリーンショット 2021-07-15 122556](https://user-images.githubusercontent.com/66664167/125724574-40dd703f-74e4-49c1-862f-d8fbf97d7d87.png)
 
 
-## ⒁変更内容の確認
+## ⒂変更内容の確認
 変更内容の確認を見てみましょう。
 
 ![スクリーンショット 2021-07-15 123007](https://user-images.githubusercontent.com/66664167/125724802-06821f2c-4989-4349-8d15-527088607392.png)
 
 
-## ⒂ソースコードの確認
+## ⒃ソースコードの確認
 「Pull requests」タブを開き、「Files changed」からソースコードを確認する。
 ![スクリーンショット 2021-07-15 123242](https://user-images.githubusercontent.com/66664167/125725036-3f3baa85-4639-42c1-b053-de665cbcc1cf.png)
 
