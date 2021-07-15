@@ -209,7 +209,7 @@ index.htmlの中身と最終更新日時を確認する。反映されていな�
 # 【Chapter 2】コンフリクトの対処法
 
 ## ⑴新規でブランチを作成
-## 1.  VisualStudioCodeのブランチが表示されているところをクリックし、ブランチ作成
+### 1.  VisualStudioCodeのブランチが表示されているところをクリックし、ブランチ作成
 ![スクリーンショット 2021-07-12 153032](https://user-images.githubusercontent.com/60914189/125241195-1ecdd380-e326-11eb-8cb0-1b67b4ce66ac.png)
 
 
@@ -217,7 +217,7 @@ index.htmlの中身と最終更新日時を確認する。反映されていな�
 ```
 feature2
 ```
-## 2. ブランチ名がfeature2になったのを確認しましたら再度index.htmlに修正を加えます。
+### 2. ブランチ名がfeature2になったのを確認しましたら再度index.htmlに修正を加えます。
 ![スクリーンショット 2021-07-15 103816](https://user-images.githubusercontent.com/66664167/125715096-977e4495-805a-4416-baa8-50621df4e290.png)
 
 ## ⑵index.htmlを修正
