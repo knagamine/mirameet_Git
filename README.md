@@ -99,9 +99,6 @@ git config –-local push.default simple
 git config --list
 ```
 
-
-![スクリーンショット 2021-07-13 141729](https://user-images.githubusercontent.com/60914189/125394723-14264380-e3e5-11eb-93c3-90daf8665c02.png)
-
 “git init”と入力し、クローンしてきたリポジトリを初期化する
 ![スクリーンショット 2021-07-13 141915](https://user-images.githubusercontent.com/60914189/125394885-5780b200-e3e5-11eb-9779-4a7f47298eeb.png)
 
