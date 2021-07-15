@@ -50,11 +50,13 @@ feature1
 ```
 
 
-![スクリーンショット 2021-07-13 141356](https://user-images.githubusercontent.com/60914189/125394410-9c581900-e3e4-11eb-9040-1cdda0f71544.png)
+![スクリーンショット 2021-07-15 102131](https://user-images.githubusercontent.com/66664167/125713381-cdfb2d6a-1687-431e-82a3-459dd0775393.png)
+
 
 
 ブランチがfeature1になっていることを確認してindex.htmlの中身を書き換える
-![スクリーンショット 2021-07-12 173359](https://user-images.githubusercontent.com/60914189/125256520-7a548d00-e337-11eb-9d05-3dee75ef5a03.png)
+![スクリーンショット 2021-07-15 102155](https://user-images.githubusercontent.com/66664167/125713407-72b88151-79be-4522-bc7e-2d1e2371ba52.png)
+
 
 Visualstudiocodeを起動し、OpenFolderを押下
 
