@@ -138,7 +138,7 @@ index.htmlを開き14行目の「【Git入門】　Gitの使い方を理解し�
 ![スクリーンショット 2021-07-13 142148](https://user-images.githubusercontent.com/60914189/125395105-b0e8e100-e3e5-11eb-996b-e0433bea0542.png)
 
 
-### ステージングを行う
+### ⑽ステージングを行う
 1.VSCodeでステージングを行うので左側のソース管理アイコンをクリックしてGitメニューを開く
 ![スクリーンショット 2021-07-13 142237](https://user-images.githubusercontent.com/60914189/125395171-cb22bf00-e3e5-11eb-8b67-ce3abfeb558d.png)
 
@@ -151,20 +151,20 @@ index.htmlを開き14行目の「【Git入門】　Gitの使い方を理解し�
 4.ステージングを行うとStaged Changesが表示されなくなる
 ![スクリーンショット 2021-07-13 142523](https://user-images.githubusercontent.com/60914189/125395460-2fde1980-e3e6-11eb-9151-9745a495ac83.png)
 
-### コミットを行う
+### ⑾コミットを行う
 Messageにコメントを記入し、メニュー上部にある“✓”アイコンを押す。
 <br>“✓”はコミットアイコン
 ![スクリーンショット 2021-07-13 143219](https://user-images.githubusercontent.com/60914189/125396168-286b4000-e3e7-11eb-8203-82dc50dcd36c.png)
 
 
-### ⑾feature1ブランチにプッシュ
+### ⑿feature1ブランチにプッシュ
 下記コマンドを使用し、feature1ブランチに対するプッシュ操作を行う
 ```
 git push –u origin feature1
 ```
 ![スクリーンショット 2021-07-13 144323](https://user-images.githubusercontent.com/60914189/125397303-b693f600-e3e8-11eb-891b-e24193f50dae.png)
 
-### ⑿変更内容がGitHubに反映されたかの確認をする
+### ⒀変更内容がGitHubに反映されたかの確認をする
 index.htmlの中身と最終更新日時を確認する。反映されていない場合はF5キーで更新し再度確認する。
 
 ![スクリーンショット 2021-07-13 144714](https://user-images.githubusercontent.com/60914189/125397688-3ae67900-e3e9-11eb-9e56-c2b3d19d5e89.png)
@@ -172,20 +172,20 @@ index.htmlの中身と最終更新日時を確認する。反映されていな�
 
 画面上部に”feature1 had recent pushes 1 minute ago”のようなメッセージが表示されるのでCompare&pull requestを押下
 
-### ⒀プルリクエストを作成する
+### ⒁プルリクエストを作成する
 ![スクリーンショット 2021-07-13 144802](https://user-images.githubusercontent.com/60914189/125397772-5baece80-e3e9-11eb-91f4-6f60ba53dd86.png)
 
-### ⒁変更内容の確認
+### ⒂変更内容の確認
 変更内容の確認を見てみましょう。
 
 ![スクリーンショット 2021-07-13 144951](https://user-images.githubusercontent.com/60914189/125397940-99abf280-e3e9-11eb-8fea-3148941244b4.png)
 
-### ⒂ソースコードの確認（レビュアー側の操作）
+### ⒃ソースコードの確認（レビュアー側の操作）
 「Pull requests」タブを開き、「Files changed」からソースコードを確認する。
 ![スクリーンショット 2021-07-13 145119](https://user-images.githubusercontent.com/60914189/125398074-ceb84500-e3e9-11eb-9ef1-b1de8e26c547.png)
 
 
-### ⒃コメントを記載（レビュアー側の操作）
+### ⒄コメントを記載（レビュアー側の操作）
 コメントしたい箇所にカーソルをあてると青い”＋”アイコンが出てきて
 <br>コメントが記載出来るようになるので必要に応じてコメントを記載する
 
@@ -193,39 +193,12 @@ index.htmlの中身と最終更新日時を確認する。反映されていな�
 
 記載したら”Start a review”を押下する
 
-### ⒄マージする（レビュアー側の操作）
+### ⒅マージする（レビュアー側の操作）
 内容に問題がなければ、「Conversation」の「Merge pull request」をクリックしてレビューを完了する。
 ![スクリーンショット 2021-07-13 145418](https://user-images.githubusercontent.com/60914189/125398399-3a9aad80-e3ea-11eb-992b-234151de16ba.png)
 
 
-### ⒅プルする（レビュアー側の操作）
-マージした内容（ここでは login.html ）をローカルリポジトリの master に取得し、最新化する必要がある。
-<br>この場合、 プル（pull） という操作を行うことで、リモートトリポジトリから変更内容を取得することができる
 
-![スクリーンショット 2021-07-13 152519](https://user-images.githubusercontent.com/60914189/125401792-96673580-e3ee-11eb-9fd1-9f61cd2c2177.png)
-
-
-デフォルトブランチに切り替える
-```
-git checkout master
-```
-プルする
-```
-git pull
-```
-### ⒆ディレクトリ内の確認をする（レビュアー側の操作）
-lsコマンドを実行すると、index.html を確認することができる。
-![スクリーンショット 2021-07-13 152632](https://user-images.githubusercontent.com/60914189/125401911-bb5ba880-e3ee-11eb-85ab-f79405a03cb7.png)
-
-
-
-### ⒇全作業の変更履歴を確認をする（レビュアー側の操作）
-git log コマンドを入力することで、これまでの全作業の変更履歴を確認もできる
-![スクリーンショット 2021-07-13 152802](https://user-images.githubusercontent.com/60914189/125402064-ee9e3780-e3ee-11eb-8b0b-44fc36fcd97c.png)
-
-### 修正箇所の確認をする（レビュアー側の操作）
-Masterブランチでのindex.htmlで先ほど書き換えた場所が確認出来る。
-![スクリーンショット 2021-07-13 153002](https://user-images.githubusercontent.com/60914189/125402315-3a50e100-e3ef-11eb-9a7d-03027cdc7d90.png)
 
 
 
