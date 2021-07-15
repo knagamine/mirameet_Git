@@ -112,12 +112,7 @@ git config --list
 ```
 
 
-下記コマンドを入力し、クローンしてきたリポジトリを初期化する
 
-```
-git init
-```
-![スクリーンショット 2021-07-15 095436](https://user-images.githubusercontent.com/66664167/125711246-fa58051e-8dea-4d33-86cb-fe150ec6bec7.png)
 
 
 ## ⑺文言を書き換える
