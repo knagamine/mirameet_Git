@@ -105,7 +105,8 @@ git config --list
 ```
 git init
 ```
-![スクリーンショット 2021-07-13 141915](https://user-images.githubusercontent.com/60914189/125394885-5780b200-e3e5-11eb-9779-4a7f47298eeb.png)
+![スクリーンショット 2021-07-15 095436](https://user-images.githubusercontent.com/66664167/125711246-fa58051e-8dea-4d33-86cb-fe150ec6bec7.png)
+
 
 ### ⑹文言を書き換える
 index.htmlを開き14行目の「【Git入門】　Gitの使い方を理解しよう」を
