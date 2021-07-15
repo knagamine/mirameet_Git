@@ -13,8 +13,13 @@
 
 ***
 # 【Chapter 1】VisualStudioCodeでGit操作 
-今回のmirameetのサイトを開き"Fork"をクリック
+今回のmirameetのサイトを開き右上の"Fork"をクリック
 ![スクリーンショット 2021-07-15 091201](https://user-images.githubusercontent.com/66664167/125708745-3d79faf0-5995-45b2-a249-8be0a5a747cf.png)
+
+
+クリックした後に自分の名前が記載されていれば完了
+![スクリーンショット 2021-07-15 091724](https://user-images.githubusercontent.com/66664167/125709060-a6daa2e1-f9ad-4f94-9c7d-ddad96fb412f.png)
+
 
 
 
