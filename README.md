@@ -26,7 +26,7 @@
 
 
 ### ⑵クローンする
-1.<>CodeタブのCodeからURLをコピーする。
+## 1.<>CodeタブのCodeからURLをコピーする。
 ![スクリーンショット 2021-07-13 135828](https://user-images.githubusercontent.com/60914189/125394037-f73d4080-e3e3-11eb-9292-67ba978ae302.png)
 
 
