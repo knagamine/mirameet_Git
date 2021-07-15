@@ -232,7 +232,8 @@ feature2
 1.ここでコンフリクトを発生させるためにindex.htmlをGitHub上で直接編集したいと思います。
 <br>GitHubを開き、index.htmlをクリックして下さい。
 
-![スクリーンショット 2021-07-12 155402](https://user-images.githubusercontent.com/60914189/125243758-79b4fa00-e329-11eb-8fd9-d94548675985.png)
+![125243758-79b4fa00-e329-11eb-8fd9-d94548675985](https://user-images.githubusercontent.com/66664167/125713619-0daaaf91-7105-41c9-b3ad-8a422edcab74.png)
+
 
 
 2.index.htmlが表示されましたら右上のペンのマークの”Edit this file”をクリックし編集できるようにします。
