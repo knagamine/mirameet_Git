@@ -70,7 +70,7 @@ Visualstudiocodeを起動し、OpenFolderを押下
 “mirameet_Git”を押下し、”フォルダー”に反映されたことを確認したら”フォルダーの選択”を押下
 ![スクリーンショット 2021-07-12 174254](https://user-images.githubusercontent.com/60914189/125257696-a1f82500-e338-11eb-8aaf-3a61f80c3297.png)
 
-### ⑸Gitの基本設定をする
+## ⑸Gitの基本設定をする
 TerminalタブからNewterminalを押下し、VScodeのターミナルに下記コマンドを入力する。
 ```
 git config –-local user.name ユーザー名
