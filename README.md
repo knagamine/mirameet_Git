@@ -99,7 +99,12 @@ git config –-local push.default simple
 git config --list
 ```
 
-“git init”と入力し、クローンしてきたリポジトリを初期化する
+
+下記コマンドを入力し、クローンしてきたリポジトリを初期化する
+
+```
+git init
+```
 ![スクリーンショット 2021-07-13 141915](https://user-images.githubusercontent.com/60914189/125394885-5780b200-e3e5-11eb-9779-4a7f47298eeb.png)
 
 ### ⑹文言を書き換える
