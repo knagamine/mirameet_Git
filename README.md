@@ -277,10 +277,11 @@ feature2
 ### ⑷コンフリクトの対処について
 1.GitHubに戻りプルリクエストを作成していきます。
 Compare & pull requestキーをクリックします。
-![image](https://user-images.githubusercontent.com/60914189/125247414-e205da80-e32d-11eb-8722-82b5c3c725df.png)
+![4-1](https://user-images.githubusercontent.com/66664167/125715547-71ea5517-50d7-4a04-99fc-46c311f98359.png)
+
 
 2.Create pull requestキーをクリックします。
-![image](https://user-images.githubusercontent.com/60914189/125247477-f3e77d80-e32d-11eb-981b-312a6c5c65a9.png)
+![4-2](https://user-images.githubusercontent.com/66664167/125715556-17338f0e-3480-4c0f-bfb5-4924690af649.png)
 
 3.コンフリクト解消
 Pullリクエストが作成されましたが先ほどと違いコンフリクトが発生しております。
