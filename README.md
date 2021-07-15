@@ -44,7 +44,7 @@ $ git clone コピーしたURL
 
 
 ## ⑶ブランチを作成する
-任意のブランチ名（今回はfeature1)を入力してCreate branch:octo-branchを押下する
+任意のブランチ名（今回はfeature1)を入力して"Create branch: feature1 from 'main'"を押下する
 ```
 feature1
 ```
