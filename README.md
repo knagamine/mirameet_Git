@@ -24,26 +24,7 @@
 
 
 
-
-## ⑵クローンする
-### 1.<>CodeタブのCodeからURLをコピーする。
-![スクリーンショット 2021-07-13 135828](https://user-images.githubusercontent.com/60914189/125394037-f73d4080-e3e3-11eb-9292-67ba978ae302.png)
-
-
-今回はC:\User\ユーザーネームにクローンします。
-<br>他の場所にクローンしたい方は”cd 任意のパス”で移動してからクローンしてください。
-
-
-
-```
-$ git clone コピーしたURL
-```
-![image](https://user-images.githubusercontent.com/60914189/125255343-488ef680-e336-11eb-8b05-8878a72219a4.png)
-下記のような結果が返ってきたらクローンされています。
-![image](https://user-images.githubusercontent.com/60914189/125255384-517fc800-e336-11eb-9c35-79ac33a27a54.png)
-
-
-## ⑶ブランチを作成する
+## ⑵ブランチを作成する
 任意のブランチ名（今回はfeature1)を入力して"Create branch: feature1 from 'main'"を押下する
 ```
 feature1
@@ -62,6 +43,23 @@ Visualstudiocodeを起動し、OpenFolderを押下
 
 
 ![スクリーンショット 2021-07-12 173603](https://user-images.githubusercontent.com/60914189/125257010-f3ec7b00-e337-11eb-9884-0818a82ee859.png)
+
+## ⑶クローンする
+### 1.<>CodeタブのCodeからURLをコピーする。
+![スクリーンショット 2021-07-13 135828](https://user-images.githubusercontent.com/60914189/125394037-f73d4080-e3e3-11eb-9292-67ba978ae302.png)
+
+
+今回はC:\User\ユーザーネームにクローンします。
+<br>他の場所にクローンしたい方は”cd 任意のパス”で移動してからクローンしてください。
+
+
+
+```
+$ git clone コピーしたURL
+```
+![image](https://user-images.githubusercontent.com/60914189/125255343-488ef680-e336-11eb-8b05-8878a72219a4.png)
+下記のような結果が返ってきたらクローンされています。
+![image](https://user-images.githubusercontent.com/60914189/125255384-517fc800-e336-11eb-9c35-79ac33a27a54.png)
 
 
 ## ⑷クローンしてきたプロジェクトをVscodeで開く
