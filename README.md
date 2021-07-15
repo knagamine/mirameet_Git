@@ -298,7 +298,7 @@ Commmit mergeでコミットします。
 
 
 
-![image](https://user-images.githubusercontent.com/60914189/125247933-6f492f00-e32e-11eb-9952-f55652bbdff7.png)
+![125247933-6f492f00-e32e-11eb-9952-f55652bbdff7 (2)](https://user-images.githubusercontent.com/66664167/125715723-2ce07160-10a8-484a-8008-c1e9c6694ea3.png)
 
 ![image](https://user-images.githubusercontent.com/60914189/125247966-7a03c400-e32e-11eb-8259-82a53471aef9.png)
 
