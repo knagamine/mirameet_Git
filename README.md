@@ -99,6 +99,17 @@ git config –-local push.default simple
 git config --list
 ```
 
+## ⑸ブランチを切り替える
+cloneしてきたファイルを開いたら左下のブランチを確認する。
+<br>main(master)ならクリックし、先ほどGitHubで作成したfeature1をクリックする。
+![スクリーンショット 2021-07-15 172206](https://user-images.githubusercontent.com/66664167/125760766-0ceaef48-9e3b-4349-bb87-dcb348413e54.png)
+
+
+
+feature1に切り替わったことを確認する。
+![スクリーンショット 2021-07-15 175837](https://user-images.githubusercontent.com/66664167/125760778-70caa78d-3f74-47e2-85ad-9fe08e1a5fcb.png)
+
+
 ## ⑹目標物の確認
 今回はカンタンにhtmlファイルの文言を書き換えてみましょう。
 <br>左が修正前の表示で、今回修正すると右のような表示になります。
