@@ -112,7 +112,7 @@ git init
 index.htmlを開き14行目の「【Git入門】　Gitの使い方を理解しよう」を
 <br>下記の文言に書き変える
 ```
-【Git入門】　文言を書き換えてみよう
+【Git入門】 文言を書き換えてみよう
 ```
 ![スクリーンショット 2021-07-15 100227](https://user-images.githubusercontent.com/66664167/125711719-beb57f19-9efa-4f3b-b41e-9028e3252856.png)
 
