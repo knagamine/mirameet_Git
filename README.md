@@ -232,18 +232,18 @@ feature2
 1.ここでコンフリクトを発生させるためにindex.htmlをGitHub上で直接編集したいと思います。
 <br>GitHubを開き、index.htmlをクリックして下さい。
 
-![125243758-79b4fa00-e329-11eb-8fd9-d94548675985](https://user-images.githubusercontent.com/66664167/125713619-0daaaf91-7105-41c9-b3ad-8a422edcab74.png)
-
-
+![1](https://user-images.githubusercontent.com/66664167/125714066-80fb1097-b358-496d-913f-d71e0f1d707f.png)
 
 2.index.htmlが表示されましたら右上のペンのマークの”Edit this file”をクリックし編集できるようにします。
-![スクリーンショット 2021-07-12 160724](https://user-images.githubusercontent.com/60914189/125245307-6145df00-e32b-11eb-9d05-840f8716644b.png)
+![2](https://user-images.githubusercontent.com/66664167/125714073-5f801a84-91f6-4392-8f8e-2c6ac2212168.png)
+
 
 3.先ほどと同じ32行目に以下の文言を追加します。
 ```
 <h1>【Git入門】 コンフリクトは注意が必要です。</h1>
 ```
-![スクリーンショット 2021-07-12 160928](https://user-images.githubusercontent.com/60914189/125245491-981bf500-e32b-11eb-8935-7094f250cd2c.png)
+![3](https://user-images.githubusercontent.com/66664167/125714084-e1df225d-a144-4156-b85c-f030710f6f8c.png)
+
 
 4.Commit changesをクリックし修正をコミットします。
 ![image](https://user-images.githubusercontent.com/60914189/125245636-c568a300-e32b-11eb-9fa2-2d500df566d1.png)
@@ -251,7 +251,7 @@ feature2
 5.Commit changesをクリックし修正をコミットします。
 
 
-![スクリーンショット 2021-07-12 160928](https://user-images.githubusercontent.com/60914189/125245809-f8129b80-e32b-11eb-826c-730a0720ffb7.png)
+![5](https://user-images.githubusercontent.com/66664167/125714102-8ee79f2d-b526-4765-b010-4b92d2de3c73.png)
 これでmasterブランチのソースには32行目に文言が入った状態になりました。
 
 6.Vscodeに戻り、先ほどの修正をpullしてみましょう。
