@@ -75,20 +75,10 @@ Visualstudiocodeを起動し、OpenFolderを押下
 ## ⑸ブランチの作成と移動
 右下の現在のブランチを確認する。defaultのブランチのみ（mainまたはmaster)だったら新規でブランチを作成する。
 
-![スクリーンショット 2021-07-13 143918](https://user-images.githubusercontent.com/60914189/125396877-205fd000-e3e8-11eb-8095-e233c662285d.png)
+![スクリーンショット 2021-07-15 125515](https://user-images.githubusercontent.com/66664167/125726811-75e7bf1e-77c6-4f6d-878d-562011353724.png)
 
-今回はfeature1というブランチを作成し、feature1に移動する。
-下記コマンドでブランチを作成。
-```
-git branch feature1
-```
+![スクリーンショット 2021-07-15 125556](https://user-images.githubusercontent.com/66664167/125726820-6b9eec66-e985-4c64-96f1-adfa33aa5987.png)
 
-ブランチを移動するコマンド
-```
-git checkout feature1
-```
-
-git branchと入力した際に緑色の文字になっているのが現在指定しているブランチ
 
 ### ⑹Gitの基本設定をする
 TerminalタブからNewterminalを押下し、VScodeのターミナルに下記コマンドを入力する。
