@@ -134,7 +134,7 @@ index.htmlを開き14行目の「【Git入門】　Gitの使い方を理解し�
 ![スクリーンショット 2021-07-13 142148](https://user-images.githubusercontent.com/60914189/125395105-b0e8e100-e3e5-11eb-996b-e0433bea0542.png)
 
 
-## ⑽ステージングを行う
+## ⑼ステージングを行う
 ### 1.VSCodeでステージングを行うので左側のソース管理アイコンをクリックしてGitメニューを開く
 ![スクリーンショット 2021-07-13 142237](https://user-images.githubusercontent.com/60914189/125395171-cb22bf00-e3e5-11eb-8b67-ce3abfeb558d.png)
 
@@ -146,7 +146,7 @@ index.htmlを開き14行目の「【Git入門】　Gitの使い方を理解し�
 
 
 
-## ⑾コミットを行う
+## ⑽コミットを行う
 Messageに下記コメントを記入し、メニュー上部にある“✓”アイコンを押す。
 <br>“✓”はコミットアイコン
 ```
@@ -154,11 +154,11 @@ Messageに下記コメントを記入し、メニュー上部にある“✓”�
 ```
 ![スクリーンショット 2021-07-15 105922](https://user-images.githubusercontent.com/66664167/125716402-2958852c-74a2-418f-a8f3-24bc5ea6e08b.png)
 
-## ⑿feature1ブランチにプッシュ
+## ⑾feature1ブランチにプッシュ
 ソース管理をクリックし、三点リーダーのプッシュでプッシュする
 ![スクリーンショット 2021-07-15 101455](https://user-images.githubusercontent.com/66664167/125712795-993fb56b-c201-4eeb-b762-f2485fbe643f.png)
 
-## ⒀変更内容がGitHubに反映されたかの確認をする
+## ⑿変更内容がGitHubに反映されたかの確認をする
 index.htmlの中身と最終更新日時を確認する。反映されていない場合はF5キーで更新し再度確認する。
 
 ![1dsdsする](https://user-images.githubusercontent.com/66664167/125724030-8a35bf9c-0bd8-4436-b1f5-3b7147a976ae.png)
@@ -167,27 +167,23 @@ index.htmlの中身と最終更新日時を確認する。反映されていな�
 
 画面上部に”feature1 had recent pushes 1 minute ago”のようなメッセージが表示されるのでCompare&pull requestを押下
 
-## ⒁プルリクエストを作成する
+## ⒀プルリクエストを作成する
 ![スクリーンショット 2021-07-15 122556](https://user-images.githubusercontent.com/66664167/125724574-40dd703f-74e4-49c1-862f-d8fbf97d7d87.png)
 
-## ⒂マージ後ブランチ削除
-プルリクエストが成功したら"Delete branch"をクリックしてブランチを削除
-![デリートブランチ](https://user-images.githubusercontent.com/66664167/125726049-1876d572-1216-4ef6-850c-396b73a76611.png)
 
-
-## ⒃変更内容の確認
+## ⒁変更内容の確認
 変更内容の確認を見てみましょう。
 
 ![スクリーンショット 2021-07-15 123007](https://user-images.githubusercontent.com/66664167/125724802-06821f2c-4989-4349-8d15-527088607392.png)
 
 
-## ⒄ソースコードの確認
+## ⒂ソースコードの確認
 「Pull requests」タブを開き、「Files changed」からソースコードを確認する。
 ![スクリーンショット 2021-07-15 123242](https://user-images.githubusercontent.com/66664167/125725036-3f3baa85-4639-42c1-b053-de665cbcc1cf.png)
 
 
 
-## ⒅コメントを記載
+## ⒃コメントを記載
 コメントしたい箇所にカーソルをあてると青い”＋”アイコンが出てきて
 <br>コメントが記載出来るようになるので必要に応じてコメントを記載する
 
@@ -196,11 +192,15 @@ index.htmlの中身と最終更新日時を確認する。反映されていな�
 
 記載したら”Start a review”を押下する
 
-## ⒆マージする
+## ⒄マージする
 内容に問題がなければ、「Conversation」の「Merge pull request」をクリックしてレビューを完了する。
 ![スクリーンショット 2021-07-13 145418](https://user-images.githubusercontent.com/60914189/125398399-3a9aad80-e3ea-11eb-992b-234151de16ba.png)
 
-## ⒇マージ後確認
+## ⒅マージ後ブランチ削除
+プルリクエストが成功したら"Delete branch"をクリックしてブランチを削除
+![デリートブランチ](https://user-images.githubusercontent.com/66664167/125726049-1876d572-1216-4ef6-850c-396b73a76611.png)
+
+## ⒆マージ後確認
 自分のdefaultのブランチに反映してるか、確認してみよう。
 ![18以降プルリクエスト後からマージ](https://user-images.githubusercontent.com/66664167/125726252-9afb0500-128a-49ed-91ee-62f7298861bf.png)
 ![マージ後確認スクショ](https://user-images.githubusercontent.com/66664167/125726268-869cbcd0-f4dd-4e29-92b1-4d58b2e2da81.png)
