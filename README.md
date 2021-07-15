@@ -252,7 +252,7 @@ feature2
 
 
 ![5](https://user-images.githubusercontent.com/66664167/125714102-8ee79f2d-b526-4765-b010-4b92d2de3c73.png)
-これでmasterブランチのソースには32行目に文言が入った状態になりました。
+<br>これでmasterブランチのソースには32行目に文言が入った状態になりました。
 
 6.Vscodeに戻り、先ほどの修正をpullしてみましょう。
 
