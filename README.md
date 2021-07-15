@@ -165,7 +165,7 @@ git push –u origin feature1
 ![スクリーンショット 2021-07-13 144323](https://user-images.githubusercontent.com/60914189/125397303-b693f600-e3e8-11eb-891b-e24193f50dae.png)
 
 ### ⑿変更内容がGitHubに反映されたかの確認をする
-index.htmlの中身と最終更新日時を確認する。反映されていない場合はF5キーで更新し再度確認する。
+index.htmlの中身と最終更新日時を確認する。反映されていない場合はF5キーで更新し再度確認する。
 
 ![スクリーンショット 2021-07-13 144714](https://user-images.githubusercontent.com/60914189/125397688-3ae67900-e3e9-11eb-9e56-c2b3d19d5e89.png)
 
