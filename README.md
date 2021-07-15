@@ -91,6 +91,9 @@ git config –-local push.default simple
 ```
 
 
+![スクリーンショット 2021-07-15 094854](https://user-images.githubusercontent.com/66664167/125710925-d813aed8-fa8b-4319-add0-3354c224d37c.png)
+
+
 下記コマンドで設定されているか一覧確認しましょう
 ```
 git config --list
