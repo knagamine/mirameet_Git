@@ -71,9 +71,32 @@ Visualstudiocodeを起動し、OpenFolderを押下
 ### ⑸Gitの基本設定をする
 TerminalタブからNewterminalを押下し、VScodeのターミナルに下記コマンドを入力する。
 ```
-git config –-global user.name “ユーザー名”
-git config –-global user.email ”メールアドレス”
+git config –-local user.name ユーザー名
 ```
+
+```
+git config –-local user.email メールアドレス
+```
+
+```
+git config –-local core.editor 'code --wait’ 
+```
+
+```
+git config –-local merge.tool 'code --wait "$MERGED“’ 
+```
+
+```
+git config –-local push.default simple
+```
+
+
+下記コマンドで設定されているか一覧確認しましょう
+```
+git config --list
+```
+
+
 ![スクリーンショット 2021-07-13 141729](https://user-images.githubusercontent.com/60914189/125394723-14264380-e3e5-11eb-93c3-90daf8665c02.png)
 
 “git init”と入力し、クローンしてきたリポジトリを初期化する
