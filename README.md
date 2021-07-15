@@ -101,7 +101,10 @@ git config –-local push.default simple
 git config --list
 ```
 
-
+## ⑺目標物の確認
+今回はカンタンに文言をhtmlファイルを書き換えてみましょう。
+左がもともとの表示で、今回修正すると右のような画像になります。
+![スクリーンショット 2021-07-15 160228](https://user-images.githubusercontent.com/66664167/125744081-c0c6fe46-006d-4b8d-ba4c-20cb54935579.png)
 
 
 
