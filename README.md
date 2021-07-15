@@ -79,11 +79,11 @@ git config –-local user.email メールアドレス
 ```
 
 ```
-git config –-local core.editor 'code --wait’ 
+git config –-local core.editor 'code --wait'
 ```
 
 ```
-git config –-local merge.tool 'code --wait "$MERGED“’ 
+git config –-local merge.tool 'code --wait "$MERGED"' 
 ```
 
 ```
