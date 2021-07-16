@@ -308,6 +308,11 @@ Commmit mergeでコミットします。
 ![image](https://user-images.githubusercontent.com/60914189/125247966-7a03c400-e32e-11eb-8259-82a53471aef9.png)
 
 
+下記のメッセージを入力し、"Confirm merge"をクリックしてください
+```
+文書を追加
+コンフリクトを解消
+```
 
 
 ![image](https://user-images.githubusercontent.com/60914189/125247985-825bff00-e32e-11eb-97a1-b51b5416eaa4.png)
