@@ -71,23 +71,23 @@ $ git clone コピーしたURL
 ## ⑸Gitの基本設定をする
 TerminalタブからNewterminalを押下し、VScodeのターミナルに下記コマンドを入力する。
 ```
-git config –-local user.name ユーザー名
+git config --local user.name ユーザー名
 ```
 
 ```
-git config –-local user.email メールアドレス
+git config --local user.email メールアドレス
 ```
 
 ```
-git config –-local core.editor 'code --wait'
+git config --local core.editor 'code --wait'
 ```
 
 ```
-git config –-local merge.tool 'code --wait "$MERGED"' 
+git config --local merge.tool 'code --wait "$MERGED"' 
 ```
 
 ```
-git config –-local push.default simple
+git config --local push.default simple
 ```
 
 
