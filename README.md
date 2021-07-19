@@ -5,14 +5,14 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **目次**
 
-- 【Chapter 1】VisualStudioCodeでGit操作
-- 【Chapter 2】コンフリクトの対処法について
+- 【Chapter1】VisualStudioCodeでGit操作
+- 【Chapter2】コンフリクトの対処法について
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 
 ***
-# 【Chapter 1】VisualStudioCodeでGit操作 
+# 【Chapter1】VisualStudioCodeでGit操作 
 ## ⑴Forkする
 
 今回のmirameetのサイトを開き右上の"Fork"をクリック
@@ -200,7 +200,7 @@ index.htmlの中身と最終更新日時を確認する。反映されていな�
 
 
 
-# 【Chapter 2】コンフリクトの対処法
+# 【Chapter2】コンフリクトの対処法
 
 ## ⑴新規でブランチを作成
 ### 1.  VisualStudioCodeのブランチが表示されているところをクリックし、ブランチ作成
@@ -315,11 +315,12 @@ Commmit mergeでコミットします。
 ```
 
 
-![image](https://user-images.githubusercontent.com/60914189/125247985-825bff00-e32e-11eb-97a1-b51b5416eaa4.png)
+![コンフリクト　デリートブランチ](https://user-images.githubusercontent.com/66664167/126097989-c8dcb261-e8d3-44fc-bacc-ceeef141df8b.png)
 
 
 
 
 
 プルリクエストが正常に作成できました
+<br>最後にChapter1同様にブランチを削除しましょう。
 
